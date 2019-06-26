@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "wh7.utils", "wh7.utils", "{88DF93C4-73A3-4006-BCF5-4E82ED4DC8BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "wh7.utils.insuflador", "wh7.utils.insuflador", "{2474B13D-0E27-4055-89A3-F546B2F8326C}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "wh7.utils.insuflador", "source\wh7.utils.insuflador\wh7.utils.insuflador.vbproj", "{620B4D21-0931-43A5-BC4C-6AFE6248253A}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "wh7.utils.insuflador.testes", "source\testes\wh7.utils.insuflador.testes\wh7.utils.insuflador.testes.vbproj", "{B6C69AFA-4770-489B-8346-856938447350}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{620B4D21-0931-43A5-BC4C-6AFE6248253A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{620B4D21-0931-43A5-BC4C-6AFE6248253A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{620B4D21-0931-43A5-BC4C-6AFE6248253A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{620B4D21-0931-43A5-BC4C-6AFE6248253A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6C69AFA-4770-489B-8346-856938447350}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6C69AFA-4770-489B-8346-856938447350}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6C69AFA-4770-489B-8346-856938447350}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6C69AFA-4770-489B-8346-856938447350}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2474B13D-0E27-4055-89A3-F546B2F8326C} = {88DF93C4-73A3-4006-BCF5-4E82ED4DC8BB}
+		{620B4D21-0931-43A5-BC4C-6AFE6248253A} = {2474B13D-0E27-4055-89A3-F546B2F8326C}
+		{B6C69AFA-4770-489B-8346-856938447350} = {2474B13D-0E27-4055-89A3-F546B2F8326C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {751FBEBE-5048-48B2-8760-6EC89D47CFC0}
+	EndGlobalSection
+EndGlobal
