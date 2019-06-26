@@ -142,7 +142,7 @@ Public Module Insuflador
     End Function
 
     <Extension()>
-    Function Titleize(ByVal word As String) As String
+    Function Titularize(ByVal word As String) As String
         Return Regex.Replace(Humanize(Underscore(word)), "\b([a-z])", Function(ByVal match As Match) match.Captures(0).Value.ToUpper())
     End Function
 
